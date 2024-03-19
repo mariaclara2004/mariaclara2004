@@ -1,0 +1,17 @@
+num = int(input("Digite um número inteiro: ")) 
+rep = int(input("Você quer que o número repita quantas vezes: ")) 
+
+if num > 0:
+    print("Seu número é positivo")
+elif num < 0:
+    print("Seu número é negativo")
+else:
+    print("Seu número é igual a zero")
+
+if rep > 0:
+    for i in range(rep):
+        print(num)
+elif rep == 0:
+    print("Você solicitou 0 repetições")
+else:
+    print("Negativo não dá né")
