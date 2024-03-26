@@ -1,0 +1,32 @@
+def soma(a,b):
+    return a + b 
+
+
+def quadrado(a):
+    return a**2
+
+
+def simples(cor):
+    if cor == 'azul':
+        return 'escolheu bem'
+    
+def medio(cor):
+    if cor == 'rosa':
+        return 'a deo gosta'
+    else:
+        return 'o fiuk gosta'
+    
+    numeros = {1,2,3,4,5}
+    
+contador = 0
+while contador < 10:
+    print (contador)
+    contador += 1 
+    
+for i in range(10):
+    print(i)
+    
+    def triangulo(x):
+        for i in range (x):
+            print ((i+1)* "*")
+    
